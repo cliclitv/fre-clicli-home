@@ -1,0 +1,34 @@
+{
+  "name": "fre-clicli-home",
+  "version": "1.0.0",
+  "description": "clicli new home page with fre",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cliclitv/fre-clicli-home.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cliclitv/fre-clicli-home/issues"
+  },
+  "homepage": "https://github.com/cliclitv/fre-clicli-home#readme",
+  "dependencies": {
+    "fre": "^1.7.13"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "babel-loader": "^8.0.6",
+    "cross-env": "^6.0.3",
+    "css-loader": "^3.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "style-loader": "^1.0.0",
+    "webpack-dev-server": "^3.8.2"
+  }
+}

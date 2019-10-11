@@ -1,2 +1,2 @@
 # fre-clicli-home
-clicli new home page with fre
+> 新版c站首页，fre 强力驱动
