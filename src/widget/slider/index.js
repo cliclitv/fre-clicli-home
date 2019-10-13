@@ -18,7 +18,7 @@ export default function Slider () {
         {[0, 1, 2, 3].map((item, index) => (
           <li>
             <img
-              src={`https://cdn.staticaly.com/gh/cliclitv/fre-clicli-home/master/src/common/img/sliders/${index}.png?env=dev
+              src={`https://cdn.jsdelivr.net/gh/cliclitv/fre-clicli-home@master/src/common/img/sliders/${index}.jpg?env=dev
 `}
             />
           </li>
