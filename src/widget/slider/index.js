@@ -5,7 +5,6 @@ import './index.css'
 export default function Slider () {
   const wrap = useRef(null)
   useEffect(() => {
-    // console.log(window.sliders)
     createSlider({
       width: 760,
       loop: true,

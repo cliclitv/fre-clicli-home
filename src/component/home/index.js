@@ -1,6 +1,12 @@
 import { h } from 'fre'
 import Slider from '../../widget/slider'
+import Header from '../header'
 
 export default function Home () {
-  return <Slider/>
+  return (
+    <div>
+      <Slider />
+      <Header />
+    </div>
+  )
 }
