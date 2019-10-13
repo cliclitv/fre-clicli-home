@@ -13,11 +13,9 @@ export default function Tag () {
     '冒险',
     '战斗',
     'r15',
-    '泡面番',
     '治愈',
     '推理',
-    '特摄',
-    '真人剧'
+    '特摄'
   ]
   return (
     <div class='tag'>
