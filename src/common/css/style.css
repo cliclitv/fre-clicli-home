@@ -13,7 +13,7 @@ li {
 
 body {
   font: 14px '黑体 Neue, HelveticaNeue, Helvetica, Arial, sans-serif';
-  color: 444;
+  color: #444;
 }
 
 input{
@@ -21,7 +21,7 @@ input{
 }
 
 .wrap{
-  width: 1200px;
+  width: 1160px;
   margin: 0 auto;
   position: relative;
 }
