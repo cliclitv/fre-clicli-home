@@ -10,3 +10,18 @@ a {
 li {
   list-style: none;
 }
+
+body {
+  font: 14px '黑体 Neue, HelveticaNeue, Helvetica, Arial, sans-serif';
+  color: 444;
+}
+
+input{
+  outline: none;
+}
+
+.wrap{
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}

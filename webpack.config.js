@@ -1,6 +1,6 @@
 const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
-const MiniCssExtractPlugin = require("mini-css-extract-plugin")
+const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const webpack = require('webpack')
 
 module.exports = {
@@ -28,11 +28,12 @@ module.exports = {
         }
       },
       {
+        test: /\.styl$/,
+        use: [MiniCssExtractPlugin.loader, 'css-loader', 'stylus-loader']
+      },
+      {
         test: /\.css$/,
-        use: [
-          MiniCssExtractPlugin.loader,
-          "css-loader"
-        ]
+        use: [MiniCssExtractPlugin.loader, 'css-loader']
       }
     ]
   },
@@ -48,20 +49,20 @@ module.exports = {
       template: './src/index.html'
     }),
     new MiniCssExtractPlugin({
-      filename: "../css/[name].css",
-      chunkFilename: "css/[id].css"
-    }),
+      filename: '../css/[name].css',
+      chunkFilename: 'css/[id].css'
+    })
   ],
   devServer: {
-    headers: {'Access-Control-Allow-Origin': '*'},
-    contentBase: path.join(__dirname, "dist"),
+    headers: { 'Access-Control-Allow-Origin': '*' },
+    contentBase: path.join(__dirname, 'dist'),
     compress: true,
     port: 8080,
     historyApiFallback: true,
     hot: true,
     proxy: {
       '/api/*': {
-        pathRewrite: {'^/api': ''},
+        pathRewrite: { '^/api': '' },
         target: 'https://api.clicli.us'
       }
     }

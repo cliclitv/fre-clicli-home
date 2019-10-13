@@ -1,0 +1,1 @@
+export const clink = 'https://www.clicli.us/'
