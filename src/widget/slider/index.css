@@ -11,9 +11,11 @@
   width: 4560px;
   position: absolute;
   list-style: none;
+  background: #000;
 }
 
 li {
+  opacity: 0.5;
   float: left;
 }
 
