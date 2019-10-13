@@ -15,10 +15,10 @@ export default function Slider () {
   return (
     <div id='wrap' ref={wrap}>
       <ul class='imgs'>
-        {[0, 1, 2, 3].map((item, index) => (
+        {[0, 1, 2, 3].map((item) => (
           <li>
             <img
-              src={`https://cdn.jsdelivr.net/gh/cliclitv/fre-clicli-home@master/src/common/img/sliders/${index}.jpg?env=dev`}
+              src={`https://cdn.jsdelivr.net/gh/cliclitv/fre-clicli-home@master/src/common/img/sliders/${item}.jpg?env=dev`}
             />
           </li>
         ))}
