@@ -1,0 +1,45 @@
+#wrap {
+  transition: .3s ease;
+  overflow: hidden;
+  width: 400px;
+  height: 200px;
+  position: relative;
+}
+
+.imgs {
+  transition: .3s ease-out;
+  width: 1600px;
+  position: absolute;
+  list-style: none;
+}
+
+li {
+  float: left;
+}
+
+li img {
+  width: 400px;
+  height: 200px;
+}
+
+.dots {
+  transition: .3s ease;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.dots b {
+  margin-left: 5px;
+  display: inline-block;
+  height: 2px;
+  width: 25px;
+  background: #999999;
+}
+
+.dots b.active {
+  background: #d70c19;
+}
