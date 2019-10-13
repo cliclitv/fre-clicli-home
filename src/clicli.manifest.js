@@ -1,8 +1,8 @@
 (function () {
   window.sliders = [
-    'https://manga.bilibili.com/mc25467/248271?from=manga_homepage_banner',
-    'https://manga.bilibili.com/mc25813/286073?from=manga_homepage_banner',
-    'https://manga.bilibili.com/mc27189/367919?from=manga_homepage_banner',
-    'http://www.bilibili.com/blackboard/topic/activity-_bTAhpjBW.html?from=manga_homepage_banner'
+    'https://i0.hdslb.com/bfs/manga-static/e5a9cb1335c1a6258114ba79269f83463a99be35.jpg@760w.jpg',
+    'https://i0.hdslb.com/bfs/manga-static/e914d6e38dfeb8d112e221b6a10b481b07f2d5c5.png@760w.png',
+    'https://i0.hdslb.com/bfs/manga-static/587cd8bfdce607d661f00b74674ebaedce4b4280.png@760w.png',
+    'https://i0.hdslb.com/bfs/manga-static/86924ae9b1048218c0601fecd64f4b0374293225.jpg@760w.jpg'
   ]
 })()
