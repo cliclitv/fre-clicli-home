@@ -15,9 +15,12 @@ export default function Slider () {
   return (
     <div id='wrap' ref={wrap}>
       <ul class='imgs'>
-        {window.sliders.map(item => (
+        {[0, 1, 2, 3].map((item, index) => (
           <li>
-            <img src={item} />
+            <img
+              src={`https://cdn.staticaly.com/gh/cliclitv/fre-clicli-home/master/src/common/img/sliders/${index}.png?env=dev
+`}
+            />
           </li>
         ))}
       </ul>
