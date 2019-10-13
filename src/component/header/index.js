@@ -21,7 +21,7 @@ export default function Header () {
           ))}
         </nav>
         <div class='search'>
-          <input type='text' />
+          <input type='text' placeholder='搜索一下下菊花又不会坏(⊙o⊙)…'/>
         </div>
         <div class="biu">
           <a>登陆</a>
