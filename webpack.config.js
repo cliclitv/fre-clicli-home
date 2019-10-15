@@ -13,7 +13,7 @@ module.exports = {
   resolve: {
     alias: {
       component: path.resolve(__dirname, 'src/component'),
-      common: path.resolve(__dirname, 'src/common'),
+      public: path.resolve(__dirname, 'src/public'),
       api: path.resolve(__dirname, 'src/api'),
       widget: path.resolve(__dirname, 'src/widget')
     }

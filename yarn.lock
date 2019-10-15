@@ -2311,12 +2311,10 @@ fragment-cache@^0.2.1:
   dependencies:
     map-cache "^0.2.2"
 
-fre@^1.7.13:
-  version "1.7.13"
-  resolved "https://registry.npm.taobao.org/fre/download/fre-1.7.13.tgz#76667e42b2c035b5a7a4f5429d310004fe0f26a7"
-  integrity sha1-dmZ+QrLANbWnpPVCnTEABP4PJqc=
-  dependencies:
-    preact "^10.0.0"
+fre@^1.8.3:
+  version "1.8.3"
+  resolved "https://registry.npm.taobao.org/fre/download/fre-1.8.3.tgz#628e50aebd2bd12d1c42d0c1f504b069324e3530"
+  integrity sha1-Yo5Qrr0r0S0cQtDB9QSwaTJONTA=
 
 fresh@0.5.2:
   version "0.5.2"
@@ -4010,11 +4008,6 @@ postcss@^7.0.14, postcss@^7.0.16, postcss@^7.0.17, postcss@^7.0.5, postcss@^7.0.
     chalk "^2.4.2"
     source-map "^0.6.1"
     supports-color "^6.1.0"
-
-preact@^10.0.0:
-  version "10.0.0"
-  resolved "https://registry.npm.taobao.org/preact/download/preact-10.0.0.tgz#c528f04ac6c792a04d8c98a5144d8b13e0cf2aed"
-  integrity sha1-xSjwSsbHkqBNjJilFE2LE+DPKu0=
 
 prepend-http@^1.0.0:
   version "1.0.4"

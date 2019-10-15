@@ -1,5 +1,5 @@
 import { h, render } from 'fre'
-import Home from './component/home'
-import './common/css/style.css'
+import Home from 'component/home'
+import 'public/css/style.css'
 
 render(<Home />, document.body)

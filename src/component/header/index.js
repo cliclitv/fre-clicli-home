@@ -1,5 +1,5 @@
 import { h } from 'fre'
-import { clink } from '../../common/js/const'
+import { clink } from 'public/js/const'
 import './index.styl'
 
 export default function Header () {

@@ -1,5 +1,5 @@
 export function get(url) {
-  new Promise(resolve => {
+  return new Promise(resolve => {
     fetch(url)
       .then(res => res.json())
       .then(data => {
