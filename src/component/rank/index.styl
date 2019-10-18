@@ -1,0 +1,49 @@
+@import "../../public/css/var.styl"
+
+.rank
+  width 310px
+  .title
+    padding: 0 10px
+    height 21px
+    overflow hidden
+  h1
+    font-size 30px
+    font-weight normal
+    padding 30px 0
+  .cover
+    width 150px
+    height 210px
+    img
+      width 150px
+      height 210px
+  .current
+    display flex
+    position relative
+    padding-bottom 10px
+    .title
+      font-size: 16px
+    .bom
+      position absolute
+      display flex
+      align-items baseline
+      bottom 10px
+      .tag
+        font-size: 12px
+        padding 0 10px
+        color: #888
+      .idx
+        font-size: 60px
+        color: $theme
+        font-weight: bold
+        position: relative
+        bottom: -18px
+  li
+    display flex
+    padding: 5px
+    span
+      font-size:18px
+      font-weight bold
+    .active
+      color: $theme
+
+

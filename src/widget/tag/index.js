@@ -18,7 +18,7 @@ export default function Tag () {
     '特摄'
   ]
   return (
-    <div class='tag'>
+    <div class='tags'>
       <div class='wrap'>
         {arr.map(item => (
           <a>{item}</a>

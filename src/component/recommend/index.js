@@ -22,6 +22,5 @@ export default function Recommend(props) {
         </li>
       })}
     </ul>
-
   </div>
 }

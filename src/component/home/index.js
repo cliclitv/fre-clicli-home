@@ -4,6 +4,7 @@ import Header from 'component/header'
 import Tag from 'widget/tag'
 import Recommend from 'component/recommend'
 import Footer from 'component/footer'
+import Rank from 'component/rank'
 import './index.styl'
 
 export default function Home() {
@@ -12,8 +13,9 @@ export default function Home() {
       <Slider/>
       <Header/>
       <Tag/>
-      <div className="wrap">
+      <div className="wrap" style={{display: 'flex'}}>
         <Recommend/>
+        <Rank/>
       </div>
       <Footer/>
     </div>
