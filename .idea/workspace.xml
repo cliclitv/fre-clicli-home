@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba2a8de2-11d6-4087-99b3-75576d5ada72" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/component/rank/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/rank/index.styl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/get.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/get.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/footer/index.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/footer/index.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/home/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/recommend/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/recommend/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/widget/tag/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/widget/tag/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/widget/tag/index.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/widget/tag/index.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/rank/index.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/rank/index.styl" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -44,8 +37,8 @@
       <file leaf-file-name="index.styl" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/component/rank/index.styl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="39" column="20" lean-forward="true" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+            <state relative-caret-position="240">
+              <caret line="42" column="8" lean-forward="true" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -211,13 +204,6 @@
               <item name="fre-clicli-home" type="b2602c69:ProjectViewProjectNode" />
               <item name="fre-clicli-home" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="component" type="462c0819:PsiDirectoryNode" />
-              <item name="rank" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fre-clicli-home" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fre-clicli-home" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -270,12 +256,12 @@
       <updated>1571104487755</updated>
       <workItem from="1571104494685" duration="5755000" />
       <workItem from="1571143424246" duration="6479000" />
-      <workItem from="1571373404254" duration="3301000" />
+      <workItem from="1571373404254" duration="4163000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15535000" />
+    <option name="totallyTimeSpent" value="16397000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
@@ -605,8 +591,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/component/rank/index.styl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="39" column="20" lean-forward="true" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+        <state relative-caret-position="240">
+          <caret line="42" column="8" lean-forward="true" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
         </state>
       </provider>
     </entry>
