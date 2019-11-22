@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba2a8de2-11d6-4087-99b3-75576d5ada72" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/clicli.manifest.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/clicli.manifest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/home/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/home/index.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/home/index.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/post-list/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/post-list/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/post-list/index.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/post-list/index.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/rank/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/rank/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/recommend/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/recommend/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/ugc-list/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ugc-list/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/week-list/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/week-list/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,14 +16,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/component/week-list/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="38" column="28" lean-forward="true" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
+            <state relative-caret-position="1000">
+              <caret line="50" column="8" lean-forward="true" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
               <folding>
                 <element signature="e#0#42#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="220">
+                <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -121,15 +124,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -167,6 +161,7 @@
         <option value="$PROJECT_DIR$/src/component/recommend/index.js" />
         <option value="$PROJECT_DIR$/src/component/ugc-list/index.js" />
         <option value="$PROJECT_DIR$/src/component/week-list/index.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -206,38 +201,6 @@
             <path>
               <item name="fre-clicli-home" type="b2602c69:ProjectViewProjectNode" />
               <item name="fre-clicli-home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fre-clicli-home" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fre-clicli-home" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fre-clicli-home" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fre-clicli-home" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="component" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fre-clicli-home" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fre-clicli-home" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="component" type="462c0819:PsiDirectoryNode" />
-              <item name="recommend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fre-clicli-home" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fre-clicli-home" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="component" type="462c0819:PsiDirectoryNode" />
-              <item name="ugc-list" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fre-clicli-home" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fre-clicli-home" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="component" type="462c0819:PsiDirectoryNode" />
-              <item name="week-list" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -284,12 +247,12 @@
       <workItem from="1571143424246" duration="6479000" />
       <workItem from="1571373404254" duration="4435000" />
       <workItem from="1571404879005" duration="53000" />
-      <workItem from="1574398164302" duration="13352000" />
+      <workItem from="1574398164302" duration="13635000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30074000" />
+    <option name="totallyTimeSpent" value="30357000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
@@ -322,13 +285,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/component/footer/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="29" column="10" lean-forward="true" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/component/home/index.styl">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -685,11 +641,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/component/week-list/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="38" column="28" lean-forward="true" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
+        <state relative-caret-position="1000">
+          <caret line="50" column="8" lean-forward="true" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="220">
+            <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
