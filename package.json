@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/cliclitv/fre-clicli-home#readme",
   "dependencies": {
-    "fre": "^1.8.3"
+    "fre": "^1.9.8"
   },
   "devDependencies": {
     "@babel/core": "^7.6.4",
