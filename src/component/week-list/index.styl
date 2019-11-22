@@ -1,0 +1,27 @@
+@import "../../public/css/var.styl"
+
+.week-list
+  .wrap
+    display flex
+    align-items center
+    ul
+    button
+      background none
+      border 0
+      margin: 10px
+      font-size 16px
+      padding: 5px
+      .active
+        color: $theme
+        position relative
+      .active:after
+        content ""
+        position absolute
+        height 3px
+        width: 10px
+        background $theme
+        bottom: 0
+        left: 50%
+        transform: translateX(-50%)
+    button:active
+      transform: scale(.97)
