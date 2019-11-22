@@ -31,7 +31,7 @@ export default function WeekList(props) {
       <div className="headline">
         <h1>更新表</h1>
         <ul>
-          {Object.keys(posts).map((item, index) => <button
+          {posts && Object.keys(posts).map((item, index) => <button
             className={index === day ? 'active' : ''}
             onClick={() => setDay(index)}>{map[item]}</button>)}
         </ul>

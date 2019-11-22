@@ -12,7 +12,7 @@ export default function UGCList(props) {
     <div className="wrap">
       <h1>个人投稿</h1>
       <ul className="posts">
-        {posts.map((item) => (<li>
+        {posts && posts.map((item) => (<li>
             <div className="post">
               <div className="cover">
                 <img src={getSuo(item.content)}/>

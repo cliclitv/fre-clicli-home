@@ -13,7 +13,7 @@ export default function Recommend(props) {
   return <div className="rank">
     <h1>排行榜</h1>
     <ul>
-      {posts.map((item, index) => {
+      {posts&&posts.map((item, index) => {
         return index === 0 ? <li className='current'>
           <div className="cover">
             <img src={getSuo(item.content)}/>

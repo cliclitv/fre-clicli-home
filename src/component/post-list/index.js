@@ -13,7 +13,7 @@ export default function PostList(props) {
   return <div className="post-list wrap">
     <h1>最新更新</h1>
     <ul>
-      {posts.map(item => {
+      {props&&posts.map(item => {
         return <li>
           <div className="cover">
             <img src={getSuo(item.content)}/>
