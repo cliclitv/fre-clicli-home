@@ -3,7 +3,7 @@ import {getPost} from "api/get"
 import {getSuo} from "public/js/util"
 import './index.styl'
 
-export default function Recommend(props) {
+export default function WeekList(props) {
   const [posts, setPosts] = useState([])
   const [day, setDay] = useState(new Date().getDay())
   useEffect(() => {

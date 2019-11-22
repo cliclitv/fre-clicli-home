@@ -4,6 +4,7 @@ import Recommend from 'component/recommend'
 import Footer from 'component/footer'
 import Rank from 'component/rank'
 import WeekList from 'component/week-list'
+import UgcList from 'component/ugc-list'
 import './index.styl'
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
         <Rank/>
       </div>
       <WeekList/>
+      <UgcList/>
       <Footer/>
     </div>
   )

@@ -1,3 +1,5 @@
+import md5 from 'blueimp-md5'
+
 export function getAvatar(avatar) {
   if (/^[0-9]+$/.test(avatar)) {
     return `https://q1.qlogo.cn/g?b=qq&nk=${avatar}&s=640`
