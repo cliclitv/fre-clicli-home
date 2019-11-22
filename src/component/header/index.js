@@ -1,8 +1,8 @@
-import { h } from 'fre'
-import { clink } from 'public/js/const'
+import {h} from 'fre'
+import {clink, alink} from 'public/js/const'
 import './index.styl'
 
-export default function Header () {
+export default function Header() {
   const obj = {
     投稿教程: 905,
     使用说明: 31,
@@ -27,6 +27,7 @@ export default function Header () {
           <div className="biu">
             <a>登陆</a>
             <a>注册</a>
+            <a className="user-center" href={alink}>投稿</a>
           </div>
         </div>
       </div>
