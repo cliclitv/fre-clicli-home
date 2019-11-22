@@ -25,8 +25,8 @@ export default function Header() {
             <input type='text' placeholder='搜索一下下菊花又不会坏(⊙o⊙)…'/>
           </div>
           <div className="biu">
-            <a>登陆</a>
-            <a>注册</a>
+            <a href={`${alink}/login`}>登陆</a>
+            <a href={`${alink}/register`}>注册</a>
             <a className="user-center" href={alink}>投稿</a>
           </div>
         </div>

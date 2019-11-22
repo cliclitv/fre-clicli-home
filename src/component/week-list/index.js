@@ -2,6 +2,7 @@ import {h, useEffect, useState} from 'fre'
 import {getPost} from "api/get"
 import {getSuo} from "public/js/util"
 import './index.styl'
+import {clink} from "public/js/const"
 
 export default function WeekList(props) {
   const [posts, setPosts] = useState([])
@@ -37,13 +38,13 @@ export default function WeekList(props) {
         </ul>
       </div>
       <ul className="posts">
-        {posts[day] && posts[day].map((item) => (<li>
+        {posts[day] && posts[day].map((item) => (<li><a target="_blank" href={`${clink}play/gv${item.id}`}>
             <div className="post">
               <div className="cover">
                 <img src={getSuo(item.content)}/>
               </div>
               <div className="title">{item.title}</div>
-            </div>
+            </div></a>
           </li>)
         )}
       </ul>
