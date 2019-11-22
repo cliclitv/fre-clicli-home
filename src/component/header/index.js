@@ -9,13 +9,11 @@ export default function Header() {
     补档: 99
   }
   return (
-    <header>
+    <header style={{background:`url(${window.bg})`}}>
       <div className="header">
         <div className='wrap'>
-          <div className='logo'>
-            <img src='https://ae01.alicdn.com/kf/He49d3080c54f496b867284497277e93e1.png'/>
-          </div>
           <nav>
+            <a href={clink} className="active">主站</a>
             <a href="https://app.clicli.me">APP 下载</a>
             {Object.keys(obj).map(key => (
               <a href={`${clink}play/gv${obj[key]}`}>{key}</a>
@@ -28,6 +26,11 @@ export default function Header() {
             <a href={`${alink}/login`}>登陆</a>
             <a href={`${alink}/register`}>注册</a>
             <a className="user-center" href={alink}>投稿</a>
+          </div>
+        </div>
+        <div className="wrap">
+          <div className='logo'>
+            <img src={window.logo}/>
           </div>
         </div>
       </div>
