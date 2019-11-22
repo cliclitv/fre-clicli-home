@@ -5,9 +5,9 @@ import './index.styl'
 
 export default function Recommend(props) {
   const [posts, setPosts] = useState([])
-  const [day,setDay] = useState(new Date().getDay())
+  const [day, setDay] = useState(new Date().getDay())
   useEffect(() => {
-    getPost('新番', '', 1, 100).then(res => {
+    getPost('新番', '', 1, 100, 'nowait').then(res => {
       let ret = {}
       res.posts.forEach(item => {
         let day = new Date(item.time).getDay()
@@ -28,9 +28,24 @@ export default function Recommend(props) {
   }
   return <div className="week-list">
     <div className="wrap">
-      <h1>更新表</h1>
-      <ul>
-        {Object.keys(posts).map((item,index) => <button className={index===day?'active':''} onClick={()=>setDay(index)}>{map[item]}</button>)}
+      <div className="headline">
+        <h1>更新表</h1>
+        <ul>
+          {Object.keys(posts).map((item, index) => <button
+            className={index === day ? 'active' : ''}
+            onClick={() => setDay(index)}>{map[item]}</button>)}
+        </ul>
+      </div>
+      <ul className="posts">
+        {posts[day] && posts[day].map((item) => (<li>
+            <div className="post">
+              <div className="cover">
+                <img src={getSuo(item.content)}/>
+              </div>
+              <div className="title">{item.title}</div>
+            </div>
+          </li>)
+        )}
       </ul>
     </div>
   </div>
