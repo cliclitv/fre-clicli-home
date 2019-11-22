@@ -6,9 +6,9 @@ const webpack = require('webpack')
 module.exports = {
   entry: './src/index.js',
   output: {
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'docs'),
     filename: 'js/[name].js',
-    publicPath: process.env.NODE_ENV === 'development' ? '/' : 'https://jx.clicli.us/admin/'
+    publicPath: process.env.NODE_ENV === 'development' ? '/' : 'https://www.clicli.me'
   },
   resolve: {
     alias: {
