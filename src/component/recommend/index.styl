@@ -1,3 +1,5 @@
+@import "../../public/css/var.styl"
+
 .recommend
   width 850px
   li
@@ -8,9 +10,8 @@
     height 40px
     overflow hidden
     padding: 10px 0
-  .cover
+  .cover,.cover img
     width 150px
     height 210px
-    img
-      width 150px
-      height 210px
+    box-shadow $shadow
+    border-radius 2px
