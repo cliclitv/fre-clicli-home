@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ba2a8de2-11d6-4087-99b3-75576d5ada72" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/css/0.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/js/main.3488855d0ba710bf602b.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/js/runtime~main.3488855d0ba710bf602b.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/header/index.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/header/index.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/post-list/index.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/post-list/index.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/rank/index.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/rank/index.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/recommend/index.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/recommend/index.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/ugc-list/index.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ugc-list/index.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/week-list/index.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/week-list/index.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/public/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/public/css/var.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/public/css/var.styl" afterDir="false" />
-    </list>
+    <list default="true" id="ba2a8de2-11d6-4087-99b3-75576d5ada72" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -292,18 +278,17 @@
       <workItem from="1574480260275" duration="1927000" />
       <workItem from="1574503924480" duration="1605000" />
       <workItem from="1574505945066" duration="926000" />
-      <workItem from="1574508584970" duration="1786000" />
+      <workItem from="1574508584970" duration="2038000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56735000" />
+    <option name="totallyTimeSpent" value="56987000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15709572" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15709572" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -311,7 +296,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2877493" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2877493" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
