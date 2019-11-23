@@ -14,9 +14,9 @@ export default function PostList(props) {
   return <div className="post-list wrap">
     <h1>最新更新</h1>
     <ul>
-      {props && posts.map(item => {
+      {posts.length > 0 && posts.map(item => {
         return (
-          <li>
+          <li key={item.id}>
             <a target="_blank" href={`${clink}play/gv${item.id}`}>
               <div className="cover">
                 <img src={getSuo(item.content)}/>

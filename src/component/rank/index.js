@@ -4,7 +4,7 @@ import {getSuo} from "public/js/util"
 import './index.styl'
 import {clink} from "public/js/const"
 
-export default function Recommend(props) {
+export default function Rank(props) {
   const [posts, setPosts] = useState([])
   useEffect(() => {
     getRank().then(res => {
@@ -14,7 +14,7 @@ export default function Recommend(props) {
   return <div className="rank">
     <h1>排行榜</h1>
     <ul>
-      {posts && posts.map((item, index) => {
+      {posts.length > 0 && posts.map((item, index) => {
         return index === 0 ? <li className='current'>
           <div className="cover">
             <img src={getSuo(item.content)}/>
@@ -28,7 +28,7 @@ export default function Recommend(props) {
               </div>
             </div>
           </a>
-        </li> : <li>
+        </li> : <li key={item.id}>
           <span className={index < 3 ? 'active' : ''}>{index + 1}</span>
           <a target="_blank" href={`${clink}play/gv${item.id}`}>
             <div className='title'>{item.title}</div>

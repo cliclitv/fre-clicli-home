@@ -22,7 +22,6 @@ module.exports = {
     rules: [
       {
         test: /\.js$/,
-        exclude: /node_modules/,
         use: {
           loader: 'babel-loader'
         }
@@ -44,7 +43,6 @@ module.exports = {
     runtimeChunk: true
   },
   plugins: [
-    new webpack.HotModuleReplacementPlugin(),
     new HtmlWebpackPlugin({
       template: './src/index.html'
     }),
@@ -55,7 +53,7 @@ module.exports = {
   ],
   devServer: {
     headers: { 'Access-Control-Allow-Origin': '*' },
-    contentBase: path.join(__dirname, 'dist'),
+    contentBase: path.join(__dirname, 'docs'),
     compress: true,
     port: 8080,
     historyApiFallback: true,

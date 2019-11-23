@@ -2316,10 +2316,10 @@ fragment-cache@^0.2.1:
   dependencies:
     map-cache "^0.2.2"
 
-fre@^1.9.8:
-  version "1.9.8"
-  resolved "https://registry.npm.taobao.org/fre/download/fre-1.9.8.tgz#b58b74645acb400b4134a60e036f26e9e46e2da9"
-  integrity sha1-tYt0ZFrLQAtBNKYOA28m6eRuLak=
+fre@^1.9.9:
+  version "1.9.9"
+  resolved "https://registry.npm.taobao.org/fre/download/fre-1.9.9.tgz#8680c84c9ad7fe6efcf79c9e79c0ddafa5d89eae"
+  integrity sha1-hoDITJrX/m7895yeecDdr6XYnq4=
 
 fresh@0.5.2:
   version "0.5.2"

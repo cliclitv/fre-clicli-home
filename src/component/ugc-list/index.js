@@ -13,7 +13,8 @@ export default function UGCList(props) {
     <div className="wrap">
       <h1>个人投稿</h1>
       <ul className="posts">
-        {posts && posts.map((item) => (<li><a target="_blank" href={`${clink}play/gv${item.id}`}>
+        {posts.length > 0 && posts.map((item) => (
+          <li key={item.id}><a target="_blank" href={`${clink}play/gv${item.id}`}>
             <div className="post">
               <div className="cover">
                 <img src={getSuo(item.content)}/>
@@ -22,7 +23,8 @@ export default function UGCList(props) {
                 <div className="uqq"><img src={getAvatar(item.uqq)}/></div>
                 <div className="title">{item.title}</div>
               </div>
-            </div></a>
+            </div>
+          </a>
           </li>)
         )}
       </ul>
