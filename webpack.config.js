@@ -1,13 +1,13 @@
 const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
-const webpack = require('webpack')
+const {CleanWebpackPlugin} = require('clean-webpack-plugin')
 
 module.exports = {
   entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'docs'),
-    filename: 'js/[name].js',
+    filename: 'js/[name].[hash].js',
     publicPath: process.env.NODE_ENV === 'development' ? '/' : 'https://www.clicli.me'
   },
   resolve: {
@@ -46,13 +46,15 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/index.html'
     }),
+    new CleanWebpackPlugin(),
+
     new MiniCssExtractPlugin({
       filename: '../css/[name].css',
       chunkFilename: 'css/[id].css'
     })
   ],
   devServer: {
-    headers: { 'Access-Control-Allow-Origin': '*' },
+    headers: {'Access-Control-Allow-Origin': '*'},
     contentBase: path.join(__dirname, 'docs'),
     compress: true,
     port: 8080,
@@ -60,7 +62,7 @@ module.exports = {
     hot: true,
     proxy: {
       '/api/*': {
-        pathRewrite: { '^/api': '' },
+        pathRewrite: {'^/api': ''},
         target: 'https://api.clicli.us'
       }
     }
