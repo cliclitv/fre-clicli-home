@@ -30,7 +30,7 @@ export default function Header() {
         </div>
         <div className="wrap">
           <div className='logo'>
-            <img src={window.logo}/>
+
           </div>
         </div>
       </div>
