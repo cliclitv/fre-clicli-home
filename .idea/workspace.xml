@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ba2a8de2-11d6-4087-99b3-75576d5ada72" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/CNAME" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/css/0.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/js/main.f2fc2212c0b34e245160.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/js/runtime~main.f2fc2212c0b34e245160.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/header/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/header/index.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/header/index.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/post-list/index.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/post-list/index.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/rank/index.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/rank/index.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/recommend/index.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/recommend/index.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="ba2a8de2-11d6-4087-99b3-75576d5ada72" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -30,8 +17,8 @@
       <file leaf-file-name="index.styl" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/component/header/index.styl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            <state relative-caret-position="380">
+              <caret line="32" column="22" lean-forward="true" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -278,16 +265,15 @@
       <workItem from="1574503924480" duration="1605000" />
       <workItem from="1574505945066" duration="926000" />
       <workItem from="1574508584970" duration="3011000" />
-      <workItem from="1574585453087" duration="533000" />
+      <workItem from="1574585453087" duration="912000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58493000" />
+    <option name="totallyTimeSpent" value="58872000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15709572" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -642,8 +628,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/component/header/index.styl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        <state relative-caret-position="380">
+          <caret line="32" column="22" lean-forward="true" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
         </state>
       </provider>
     </entry>
