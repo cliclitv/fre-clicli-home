@@ -14,7 +14,7 @@ export default function UGCList(props) {
       <h1>个人投稿</h1>
       <ul className="posts">
         {posts.length > 0 && posts.map((item) => (
-          <li key={item.id}><a target="_blank" href={`${clink}play/gv${item.id}`}>
+          <li key={item.id}><a target="_blank" href={`${clink}/play/gv${item.id}`}>
             <div className="post">
               <div className="cover">
                 <img src={getSuo(item.content)}/>

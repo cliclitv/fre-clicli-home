@@ -17,7 +17,7 @@ export default function PostList(props) {
       {posts.length > 0 && posts.map(item => {
         return (
           <li key={item.id}>
-            <a target="_blank" href={`${clink}play/gv${item.id}`}>
+            <a target="_blank" href={`${clink}/play/gv${item.id}`}>
               <div className="cover">
                 <img src={getSuo(item.content)}/>
               </div>
