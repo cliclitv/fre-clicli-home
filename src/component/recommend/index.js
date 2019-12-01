@@ -15,7 +15,7 @@ export default function Recommend(props) {
     <h1>编辑推荐</h1>
     <ul>
       {posts.length > 0 && posts.map(item => {
-        return <li key={item.id}><a target="_blank" href={`${clink}play/gv${item.id}`}>
+        return <li key={item.id}><a target="_blank" href={`${clink}/play/gv${item.id}`}>
           <div className="cover">
             <img src={getSuo(item.content)}/>
           </div>

@@ -19,7 +19,7 @@ export default function Rank(props) {
           <div className="cover">
             <img src={getSuo(item.content)}/>
           </div>
-          <a target="_blank" href={`${clink}play/gv${item.id}`}>
+          <a target="_blank" href={`${clink}/play/gv${item.id}`}>
             <div className="info">
               <div className="title">{item.title}</div>
               <div className="bom">
@@ -30,7 +30,7 @@ export default function Rank(props) {
           </a>
         </li> : <li key={item.id}>
           <span className={index < 3 ? 'active' : ''}>{index + 1}</span>
-          <a target="_blank" href={`${clink}play/gv${item.id}`}>
+          <a target="_blank" href={`${clink}/play/gv${item.id}`}>
             <div className='title'>{item.title}</div>
           </a>
 

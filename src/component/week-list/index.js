@@ -39,7 +39,7 @@ export default function WeekList(props) {
       </div>
       <ul className="posts">
         {posts[day] && posts[day].map((item) => (
-          <li key={item.id}><a target="_blank" href={`${clink}play/gv${item.id}`}>
+          <li key={item.id}><a target="_blank" href={`${clink}/play/gv${item.id}`}>
             <div className="post">
               <div className="cover">
                 <img src={getSuo(item.content)}/>

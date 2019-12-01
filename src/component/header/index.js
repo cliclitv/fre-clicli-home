@@ -16,7 +16,7 @@ export default function Header() {
             <a href={clink} className="active">主站</a>
             <a href="https://app.clicli.me">APP 下载</a>
             {Object.keys(obj).map(key => (
-              <a href={`${clink}play/gv${obj[key]}`}>{key}</a>
+              <a href={`${clink}/play/gv${obj[key]}`}>{key}</a>
             ))}
           </nav>
           <div className='search'>
