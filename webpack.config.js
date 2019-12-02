@@ -52,7 +52,15 @@ module.exports = {
 
     new MiniCssExtractPlugin({
       filename: '../css/[name].css',
-      chunkFilename: 'css/[id].css'
+      chunkFilename: 'css/[id].css',
+      ignoreOrder: false,
+      insert(linkTag) {
+        console.log(linkTag)
+        const reference = document.body
+        if (reference) {
+          reference.parentNode.insertBefore(linkTag, reference)
+        }
+      }
     })
   ],
   devServer: {
