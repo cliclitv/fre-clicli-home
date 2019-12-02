@@ -4,7 +4,10 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const {CleanWebpackPlugin} = require('clean-webpack-plugin')
 
 module.exports = {
-  entry: './src/index.js',
+  entry: {
+    home:'./fre/index.js',
+    play:'./vue/index.js'
+  },
   output: {
     path: path.resolve(__dirname, 'docs'),
     filename: 'js/[name].[hash].js',
@@ -12,10 +15,10 @@ module.exports = {
   },
   resolve: {
     alias: {
-      component: path.resolve(__dirname, 'src/component'),
-      public: path.resolve(__dirname, 'src/public'),
-      api: path.resolve(__dirname, 'src/api'),
-      widget: path.resolve(__dirname, 'src/widget')
+      component: path.resolve(__dirname, 'fre/component'),
+      public: path.resolve(__dirname, 'fre/public'),
+      api: path.resolve(__dirname, 'fre/api'),
+      widget: path.resolve(__dirname, 'fre/widget')
     }
   },
   module: {
@@ -44,7 +47,14 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './src/index.html'
+      template: './fre/index.html',
+      filename: 'home.html',
+      chunks: ['home']
+    }),
+    new HtmlWebpackPlugin({
+      template: './fre/index.html',
+      filename: 'play.html',
+      chunks: ['play']
     }),
     new CleanWebpackPlugin({
       cleanOnceBeforeBuildPatterns: ['!CNAME']
@@ -61,12 +71,6 @@ module.exports = {
     compress: true,
     port: 8080,
     historyApiFallback: true,
-    hot: true,
-    proxy: {
-      '/api/*': {
-        pathRewrite: {'^/api': ''},
-        target: 'https://api.clicli.us'
-      }
-    }
+    hot: true
   }
 }
