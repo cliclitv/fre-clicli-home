@@ -7,6 +7,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vue/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vue/vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +75,7 @@
       <workItem from="1574508584970" duration="3011000" />
       <workItem from="1574585453087" duration="912000" />
       <workItem from="1575245695952" duration="20434000" />
+      <workItem from="1575281814173" duration="766000" />
     </task>
     <servers />
   </component>
