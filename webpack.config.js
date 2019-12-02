@@ -8,7 +8,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'docs'),
     filename: 'js/[name].[hash].js',
-    publicPath: '/'
+    publicPath: process.env.NODE_ENV === 'production' ? 'https://www.clicli.me' : '/'
   },
   resolve: {
     alias: {

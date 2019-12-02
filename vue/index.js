@@ -1,12 +1,10 @@
 import {h, createApp, reactive} from './vue'
+import Header from './component/header/header'
 
 const App = {
   setup() {
-    let data = reactive({
-      count: 0
-    })
     return () => (
-      <div>{data.count}</div>
+      <Header/>
     )
   }
 }

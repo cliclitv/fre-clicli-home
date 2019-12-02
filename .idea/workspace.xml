@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba2a8de2-11d6-4087-99b3-75576d5ada72" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/vue/component/header/header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/component/header/header.styl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/css/0.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/home.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/js/home.0724d2b846ee9db629a9.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/js/play.0724d2b846ee9db629a9.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/js/runtime~home.0724d2b846ee9db629a9.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/js/runtime~play.0724d2b846ee9db629a9.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/play.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fre/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/fre/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +73,7 @@
       <workItem from="1574505945066" duration="926000" />
       <workItem from="1574508584970" duration="3011000" />
       <workItem from="1574585453087" duration="912000" />
-      <workItem from="1575245695952" duration="16755000" />
+      <workItem from="1575245695952" duration="20434000" />
     </task>
     <servers />
   </component>
