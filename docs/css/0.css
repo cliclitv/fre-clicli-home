@@ -74,7 +74,7 @@ header {
   width: 150px;
   height: 40px;
   overflow: hidden;
-  padding: 10px 0;
+  margin: 10px 0;
 }
 .recommend .cover,
 .recommend .cover img {
@@ -344,36 +344,32 @@ header {
   display: inline-block;
   border-radius: 0 0 2px 2px;
 }
-
 * {
   padding: 0;
   margin: 0;
 }
-
+:host {
+  font: 14px '14px -apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,sans-serif';
+  color: #444;
+  padding: 0;
+  margin: 0;
+}
 a {
   text-decoration: none;
-  color: #444444;
+  color: #444;
 }
-
 li {
   list-style: none;
 }
-
-body {
-  font: 14px '14px -apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,sans-serif';
-  color: #444;
-}
-
-input, button {
+input,
+button {
   outline: none;
 }
-
 .wrap {
   width: 1160px;
   margin: 0 auto;
   position: relative;
 }
-
 h1 {
   font-size: 28px;
   font-weight: normal;
@@ -382,3 +378,4 @@ h1 {
 img {
   background: #f4f6fa;
 }
+
