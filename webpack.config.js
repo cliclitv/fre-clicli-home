@@ -46,7 +46,9 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/index.html'
     }),
-    new CleanWebpackPlugin(),
+    new CleanWebpackPlugin({
+      cleanOnceBeforeBuildPatterns: ['!CNAME']
+    }),
 
     new MiniCssExtractPlugin({
       filename: '../css/[name].css',
