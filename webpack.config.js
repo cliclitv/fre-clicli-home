@@ -32,7 +32,7 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        use: [MiniCssExtractPlugin.loader, 'css-loader']
+        use: ['to-string-loader', 'css-loader']
       }
     ]
   },
@@ -52,15 +52,7 @@ module.exports = {
 
     new MiniCssExtractPlugin({
       filename: '../css/[name].css',
-      chunkFilename: 'css/[id].css',
-      ignoreOrder: false,
-      insert(linkTag) {
-        console.log(linkTag)
-        const reference = document.body
-        if (reference) {
-          reference.parentNode.insertBefore(linkTag, reference)
-        }
-      }
+      chunkFilename: 'css/[id].css'
     })
   ],
   devServer: {
