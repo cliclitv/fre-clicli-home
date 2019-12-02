@@ -1,45 +1,13 @@
-import { h, createApp, reactive } from './vue'
-
-const A = {
-  props: {
-    count: Number
-  },
-  setup (props) {
-    return () => {
-      console.log('aaa')
-      return h('div', props.count)
-    }
-  }
-}
-
-const B = {
-  props: {
-    count: Number
-  },
-  setup (props) {
-    return () => {
-      console.log('bbb')
-      return h('div', props.count)
-    }
-  }
-}
+import {h, createApp, reactive} from './vue'
 
 const App = {
-  setup () {
+  setup() {
     let data = reactive({
       count: 0
     })
-    return () =>{
-      return h(
-          'button',
-          {
-            onClick: () => {
-              data.count++
-            }
-          },
-          data.count
-        )
-    }
+    return () => (
+      <div>{data.count}</div>
+    )
   }
 }
 

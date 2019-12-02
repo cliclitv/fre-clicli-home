@@ -4,14 +4,11 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const {CleanWebpackPlugin} = require('clean-webpack-plugin')
 
 module.exports = {
-  entry: {
-    home:'./fre/index.js',
-    play:'./vue/index.js'
-  },
+  entry: process.env.NODE_ENV === 'vue' ? './vue/index.js' : './fre/index.js',
   output: {
     path: path.resolve(__dirname, 'docs'),
     filename: 'js/[name].[hash].js',
-    publicPath: process.env.NODE_ENV === 'development' ? '/' : 'https://www.clicli.me'
+    publicPath: '/'
   },
   resolve: {
     alias: {
@@ -35,7 +32,7 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        use: ['to-string-loader', 'css-loader']
+        use: [MiniCssExtractPlugin.loader, 'css-loader']
       }
     ]
   },
@@ -47,17 +44,10 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './fre/index.html',
-      filename: 'home.html',
-      chunks: ['home']
-    }),
-    new HtmlWebpackPlugin({
-      template: './fre/index.html',
-      filename: 'play.html',
-      chunks: ['play']
+      template: './fre/index.html'
     }),
     new CleanWebpackPlugin({
-      cleanOnceBeforeBuildPatterns: ['**/*','!CNAME']
+      cleanOnceBeforeBuildPatterns: ['!CNAME']
     }),
 
     new MiniCssExtractPlugin({

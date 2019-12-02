@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack --mode production",
-    "start": "cross-env NODE_ENV=development webpack-dev-server --mode development"
+    "start": "cross-env NODE_ENV=development webpack-dev-server --mode development",
+    "vue": "cross-env NODE_ENV=vue webpack-dev-server --mode development"
   },
   "repository": {
     "type": "git",
@@ -21,8 +22,7 @@
   "dependencies": {
     "blueimp-md5": "^2.12.0",
     "celty": "^0.0.2",
-    "fre": "^1.10.2",
-    "to-string-loader": "^1.1.6"
+    "fre": "^1.10.2"
   },
   "devDependencies": {
     "@babel/core": "^7.6.4",
@@ -37,6 +37,7 @@
     "style-loader": "^1.0.1",
     "stylus": "^0.54.7",
     "stylus-loader": "^3.0.2",
+    "to-string-loader": "^1.1.6",
     "webpack": "^4.41.1",
     "webpack-cli": "^3.3.9",
     "webpack-dev-server": "^3.8.2"
