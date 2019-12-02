@@ -57,7 +57,7 @@ module.exports = {
       chunks: ['play']
     }),
     new CleanWebpackPlugin({
-      cleanOnceBeforeBuildPatterns: ['!CNAME']
+      cleanOnceBeforeBuildPatterns: ['**/*','!CNAME']
     }),
 
     new MiniCssExtractPlugin({

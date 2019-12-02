@@ -2,41 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba2a8de2-11d6-4087-99b3-75576d5ada72" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/get.js" beforeDir="false" afterPath="$PROJECT_DIR$/fre/api/get.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clicli.manifest.js" beforeDir="false" afterPath="$PROJECT_DIR$/fre/clicli.manifest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/footer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/fre/component/footer/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/footer/index.styl" beforeDir="false" afterPath="$PROJECT_DIR$/fre/component/footer/index.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/fre/component/header/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/header/index.styl" beforeDir="false" afterPath="$PROJECT_DIR$/fre/component/header/index.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/fre/component/home/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/home/index.styl" beforeDir="false" afterPath="$PROJECT_DIR$/fre/component/home/index.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/post-list/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/fre/component/post-list/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/post-list/index.styl" beforeDir="false" afterPath="$PROJECT_DIR$/fre/component/post-list/index.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/rank/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/fre/component/rank/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/rank/index.styl" beforeDir="false" afterPath="$PROJECT_DIR$/fre/component/rank/index.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/recommend/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/fre/component/recommend/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/recommend/index.styl" beforeDir="false" afterPath="$PROJECT_DIR$/fre/component/recommend/index.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/ugc-list/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/fre/component/ugc-list/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/ugc-list/index.styl" beforeDir="false" afterPath="$PROJECT_DIR$/fre/component/ugc-list/index.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/week-list/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/fre/component/week-list/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/week-list/index.styl" beforeDir="false" afterPath="$PROJECT_DIR$/fre/component/week-list/index.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/fre/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/fre/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/public/css/var.styl" beforeDir="false" afterPath="$PROJECT_DIR$/fre/public/css/var.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/public/img/sliders/0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/fre/public/img/sliders/0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/public/img/sliders/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/fre/public/img/sliders/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/public/img/sliders/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/fre/public/img/sliders/2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/public/img/sliders/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/fre/public/img/sliders/3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/public/js/const.js" beforeDir="false" afterPath="$PROJECT_DIR$/fre/public/js/const.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/public/js/fetch.js" beforeDir="false" afterPath="$PROJECT_DIR$/fre/public/js/fetch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/public/js/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/fre/public/js/util.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/widget/slider/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/fre/widget/slider/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/widget/slider/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/fre/widget/slider/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/widget/slider/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/fre/widget/slider/slider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/widget/tag/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/fre/widget/tag/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/widget/tag/index.styl" beforeDir="false" afterPath="$PROJECT_DIR$/fre/widget/tag/index.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fre/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/fre/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +70,7 @@
       <workItem from="1574505945066" duration="926000" />
       <workItem from="1574508584970" duration="3011000" />
       <workItem from="1574585453087" duration="912000" />
-      <workItem from="1575245695952" duration="13052000" />
+      <workItem from="1575245695952" duration="13728000" />
     </task>
     <servers />
   </component>
