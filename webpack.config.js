@@ -46,7 +46,7 @@ module.exports = {
       template: './fre/index.html'
     }),
     new CleanWebpackPlugin({
-      cleanOnceBeforeBuildPatterns: ['**/*', '!CNAME']
+      cleanOnceBeforeBuildPatterns: ['*/**', '!CNAME']
     }),
 
     new MiniCssExtractPlugin({
