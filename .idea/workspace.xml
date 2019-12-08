@@ -1,11 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ba2a8de2-11d6-4087-99b3-75576d5ada72" name="Default" comment="" />
+    <list default="true" id="ba2a8de2-11d6-4087-99b3-75576d5ada72" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/vue/component/page/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/component/page/index.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/widget/tab/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/widget/tab/index.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack.vue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fre/component/header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/fre/component/header/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.fre.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -28,6 +48,10 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\www\fre-clicli-home" />
+      <recent name="E:\www\fre-clicli-home\build" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\www\fre-clicli-home\src\component" />
     </key>
@@ -71,7 +95,7 @@
       <workItem from="1575245695952" duration="20434000" />
       <workItem from="1575281814173" duration="1292000" />
       <workItem from="1575684877670" duration="598000" />
-      <workItem from="1575783764511" duration="2917000" />
+      <workItem from="1575783764511" duration="4769000" />
     </task>
     <servers />
   </component>

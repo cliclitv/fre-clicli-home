@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack --mode production",
-    "start": "cross-env NODE_ENV=development webpack-dev-server --mode development",
-    "vue": "cross-env NODE_ENV=vue webpack-dev-server --mode development"
+    "start": "cross-env NODE_ENV=development webpack-dev-server --config webpack.fre.js --mode development",
+    "vue": "cross-env NODE_ENV=development webpack-dev-server --config webpack.vue.js --mode development"
   },
   "repository": {
     "type": "git",

@@ -29,9 +29,7 @@ export default function Header() {
           </div>
         </div>
         <div className="wrap">
-          <div className='logo'>
-
-          </div>
+          <div className='logo'></div>
         </div>
       </div>
     </header>
