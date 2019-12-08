@@ -7,7 +7,7 @@ module.exports = {
   entry: process.env.NODE_ENV === 'vue' ? './vue/index.js' : './fre/index.js',
   output: {
     path: path.resolve(__dirname, 'docs'),
-    filename: 'js/[name].[hash].js',
+    filename: '[name].[hash].js',
     publicPath: process.env.NODE_ENV === 'production' ? 'https://www.clicli.me' : '/'
   },
   resolve: {
@@ -39,20 +39,18 @@ module.exports = {
   optimization: {
     splitChunks: {
       chunks: 'all'
-    },
-    runtimeChunk: true
+    }
   },
   plugins: [
     new HtmlWebpackPlugin({
       template: './fre/index.html'
     }),
     new CleanWebpackPlugin({
-      cleanOnceBeforeBuildPatterns: ['!CNAME']
+      cleanOnceBeforeBuildPatterns: ['**/*', '!CNAME']
     }),
 
     new MiniCssExtractPlugin({
-      filename: '../css/[name].css',
-      chunkFilename: 'css/[id].css'
+      filename: '[name].[hash].css',
     })
   ],
   devServer: {

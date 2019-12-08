@@ -2,11 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba2a8de2-11d6-4087-99b3-75576d5ada72" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/vue/component/header/header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/component/header/header.styl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/CNAME" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/css/0.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/main.5e27028c0fb94eb39ebb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/main.aaffaf8daca4841cfaa8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/main.b38ae87fc288b299c3a0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/runtime~main.5e27028c0fb94eb39ebb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/runtime~main.aaffaf8daca4841cfaa8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/runtime~main.b38ae87fc288b299c3a0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/component/header/header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/component/header/header.styl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/vue.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +36,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -75,12 +85,17 @@
       <workItem from="1574508584970" duration="3011000" />
       <workItem from="1574585453087" duration="912000" />
       <workItem from="1575245695952" duration="20434000" />
-      <workItem from="1575281814173" duration="766000" />
+      <workItem from="1575281814173" duration="1292000" />
+      <workItem from="1575684877670" duration="598000" />
+      <workItem from="1575783764511" duration="2618000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="515" y="216" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1575246167822">
