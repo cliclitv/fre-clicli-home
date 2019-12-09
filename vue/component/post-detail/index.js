@@ -1,30 +1,34 @@
-import {h, useRef, useEffect} from 'fre'
+import {h, useRef, useEffect, useState} from 'fre'
 import './index.styl'
 import {withSuspense} from '../../with-suspense'
 import {getPostDetail} from '../../../fre/api/get'
 import {getAvatar} from '../../../fre/public/js/util'
 import snarkdown from 'snarkdown'
 
-const usePost = withSuspense(getPostDetail)
-
 export default function PostDetal() {
   const t = useRef(null)
-  const post = usePost(4).result
+  const [post,setPost] = useState({})
   useEffect(() => {
-    t.current.innerHTML = snarkdown(post.content)
-  })
+    getPostDetail(4).then(res=>{
+      setPost(res.result)
+      t.current.innerHTML = snarkdown(res.result.content)
+    })
+  },[])
   return (<div className="post">
     <div className='post-detail'>
       <article ref={t}></article>
-      <div className="tag">{post.tag}</div>
     </div>
     <div className="info">
       <div className="user">
-        <img src={getAvatar(post.uqq)} alt={post.uqq}></img>
-        <span>{post.uname}</span>
-        <span>{post.uid}</span>
+        <span className='avatar'><img src={getAvatar(post.uqq)} alt={post.uqq}></img></span>
+        <span className='uname'>{post.uname}</span>
+        <span className='uid'>uid：{post.uid}</span>
       </div>
-      <h1>{post.title}</h1>
+      <div className="title">
+        <h1>{post.title}</h1>
+        <span>{post.tag}</span>
+        <span>{post.time}</span>
+      </div>
     </div>
   </div>)
 }
