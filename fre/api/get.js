@@ -7,3 +7,7 @@ export function getPost(type, tag, page, pageSize, status, uid) {
 export function getRank() {
   return get('https://api.clicli.us/rank')
 }
+
+export function getPostDetail(pid) {
+  return get(`https://api.clicli.us/post/${pid}`)
+}
