@@ -18,9 +18,14 @@ export default function VideoList() {
     document.body.style.overflow = 'auto'
   }
 
+  function show(url) {
+    setContent(url)
+    document.body.style.overflow = 'hidden'
+  }
+
   return (<div className='video-list'>
     {video.map(item => (
-      <li className='item' onClick={() => setContent(item.content)}>
+      <li className='item' onClick={() => show(item.content)}>
         <img src={getAvatar(item.uqq)} alt={item.uqq}></img>
         <span>P {item.oid}</span>
         <span>{item.title}</span>

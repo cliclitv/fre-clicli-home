@@ -8,7 +8,6 @@ export default function Eplayer(props) {
     getPlayUrl(props.url).then(res => {
       t.current.setAttribute('src', res.url)
       t.current.setAttribute('type', res.type)
-      document.body.style.overflow = 'hidden'
     })
   }, [props.url])
 
