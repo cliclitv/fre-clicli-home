@@ -4,11 +4,11 @@ import {getVideoList} from '../../api/get'
 import {getAvatar} from '../../public/js/util'
 import './index.styl'
 
-export default function VideoList() {
+export default function VideoList(props) {
   const [video, setVideo] = useState([])
   const [content, setContent] = useState(null)
   useEffect(() => {
-    getVideoList(328).then(res => {
+    getVideoList(props.gv).then(res => {
       setVideo(res.videos)
     })
   }, [])

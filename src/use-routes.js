@@ -13,23 +13,22 @@ export function useRoutes(routes) {
   }
 
   routeStack[id] = stack
-  perfrom()
+  perfrom(id)
 
   return typeof stack.component === 'string'
     ? push(stack.component)
     : stack.component(stack.props)
 }
 
-function perfrom(rid) {
-  const {routes, setter} = routeStack[rid]
+function perfrom(id) {
+  const {routes, setter} = routeStack[id]
   const currentPath = location.pathname || '/'
-
   let path, component, props
 
   for (let i = 0; i < routes.length; i++) {
     const route = routes[i]
-    path = route.path
-    component = route.path
+    path = route[0]
+    component = route[1]
     const [reg, params] = pathSlice(path)
 
     const res = currentPath.match(reg)
@@ -41,12 +40,12 @@ function perfrom(rid) {
 
     if (params.length) {
       props = {}
-      group.forEach((item, index) => (props[item] = result[index + 1]))
+      params.forEach((item, index) => (props[item] = res[index + 1]))
     }
     break
   }
 
-  Object.assign(routeStack[rid], {
+  Object.assign(routeStack[id], {
     path,
     component,
     props
@@ -77,7 +76,9 @@ export function push(url) {
   processStack()
 }
 
-const processStack = () => Object.keys(routeStack).forEach(perfrom)
+const processStack = () =>{
+  Object.getOwnPropertySymbols(routeStack).forEach(perfrom)
+}
 
 window.addEventListener('popstate', processStack)
 
@@ -87,7 +88,6 @@ export function A(props) {
   const onClick = e => {
     e.preventDefault()
     push(e.target.href)
-
     if (onclick) onclick(e)
   }
 

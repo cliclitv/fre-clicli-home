@@ -1,8 +1,9 @@
 import {h, useEffect, useState} from 'fre'
-import {getPost} from "api/get"
-import {getSuo} from "public/js/util"
+import {push} from '../../use-routes'
+import {getPost} from 'api/get'
+import {getSuo} from 'public/js/util'
+import {clink} from 'public/js/const'
 import './index.styl'
-import {clink} from "public/js/const"
 
 export default function Recommend(props) {
   const [posts, setPosts] = useState([])
@@ -15,12 +16,11 @@ export default function Recommend(props) {
     <h1>编辑推荐</h1>
     <ul>
       {posts.length > 0 && posts.map(item => {
-        return <li key={item.id}><a target="_blank" href={`${clink}/play/gv${item.id}`}>
+        return <li key={item.id} onClick={() => push(`/play/gv${item.id}`)}>
           <div className="cover">
             <img src={getSuo(item.content)}/>
           </div>
           <div className="title">{item.title}</div>
-        </a>
         </li>
       })}
     </ul>

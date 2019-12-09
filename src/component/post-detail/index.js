@@ -5,17 +5,17 @@ import {getPostDetail} from '../../api/get'
 import {getAvatar} from '../../public/js/util'
 import snarkdown from 'snarkdown'
 
-export default function PostDetal() {
+export default function PostDetal(props) {
   const t = useRef(null)
   const [post, setPost] = useState({})
   useEffect(() => {
-    getPostDetail(328).then(res => {
+    getPostDetail(props.gv).then(res => {
       setPost(res.result)
       t.current.innerHTML = snarkdown(res.result.content)
     })
   }, [])
-  return (<div className="post">
-    <div className='post-detail'>
+  return (<div className="post-detail">
+    <div className='left'>
       <article ref={t}></article>
     </div>
     <div className="right">
@@ -31,7 +31,7 @@ export default function PostDetal() {
           <span>{post.time}</span>
         </div>
       </div>
-      <VideoList/>
+      <VideoList gv={props.gv}/>
     </div>
   </div>)
 }
