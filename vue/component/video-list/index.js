@@ -12,6 +12,12 @@ export default function VideoList() {
       setVideo(res.videos)
     })
   }, [])
+
+  function hide() {
+    setContent(null)
+    document.body.style.overflow = 'auto'
+  }
+
   return (<div className='video-list'>
     {video.map(item => (
       <li className='item' onClick={() => setContent(item.content)}>
@@ -20,6 +26,6 @@ export default function VideoList() {
         <span>{item.title}</span>
       </li>
     ))}
-    {content && <Eplayer url={content}/>}
+    {content && <Eplayer url={content} hide={hide}/>}
   </div>)
 }

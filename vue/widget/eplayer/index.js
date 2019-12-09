@@ -8,8 +8,13 @@ export default function Eplayer(props) {
     getPlayUrl(props.url).then(res => {
       t.current.setAttribute('src', res.url)
       t.current.setAttribute('type', res.type)
+      document.body.style.overflow = 'hidden'
     })
   }, [props.url])
 
-  return <e-player ref={t}/>
+  return (
+    <div className="ep-wrap" onClick={props.hide}>
+      <e-player ref={t} className='ep'/>
+    </div>
+  )
 }
