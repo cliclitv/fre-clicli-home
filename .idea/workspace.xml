@@ -16,6 +16,7 @@
       <change beforePath="$PROJECT_DIR$/src/component/post-detail/index.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/post-detail/index.styl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/recommend/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/recommend/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/video-list/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/video-list/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/use-routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/use-routes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
@@ -105,7 +106,7 @@
       <workItem from="1575783764511" duration="5128000" />
       <workItem from="1575850512950" duration="12081000" />
       <workItem from="1575867779490" duration="5325000" />
-      <workItem from="1575874809516" duration="4251000" />
+      <workItem from="1575874809516" duration="4513000" />
     </task>
     <servers />
   </component>
