@@ -11,3 +11,7 @@ export function getRank() {
 export function getPostDetail(pid) {
   return get(`https://api.clicli.us/post/${pid}`)
 }
+
+export function getVideoList(pid) {
+  return get(`https://api.clicli.us/videos?pid=${pid}&page=1&pageSize=150`)
+}
