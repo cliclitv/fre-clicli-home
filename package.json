@@ -4,12 +4,8 @@
   "description": "clicli new home page with fre",
   "main": "index.js",
   "scripts": {
-    "build:fre": "cross-env NODE_ENV=production webpack --config webpack.fre.js --mode production",
-    "start:fre": "cross-env NODE_ENV=development webpack-dev-server --config webpack.fre.js --mode development",
-    "start:vue": "cross-env NODE_ENV=development webpack-dev-server --config webpack.vue.js --mode development",
-    "build:vue": "cross-env NODE_ENV=production webpack --config webpack.vue.js --mode production",
-    "build": "yarn build:vue && yarn build:fre",
-    "start": "parcel index.html"
+    "build": "cross-env NODE_ENV=production webpack --mode production",
+    "start": "cross-env NODE_ENV=development webpack-dev-server --mode development"
   },
   "repository": {
     "type": "git",

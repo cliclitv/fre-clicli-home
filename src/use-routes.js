@@ -1,8 +1,9 @@
-import { h, useState } from 'fre'
+import {h, useState} from 'fre'
+
 let routeStack = {}
 let pathCache = {}
 
-export function useRoutes (routes) {
+export function useRoutes(routes) {
   const id = useState(Symbol())[0]
   const setter = useState(0)[1]
 
@@ -19,19 +20,22 @@ export function useRoutes (routes) {
     : stack.component(stack.props)
 }
 
-function perfrom (rid) {
-  const { routes, setter } = routeStack[rid]
+function perfrom(rid) {
+  const {routes, setter} = routeStack[rid]
   const currentPath = location.pathname || '/'
 
   let path, component, props
 
   for (let i = 0; i < routes.length; i++) {
-    ;[path, component] = routes[i]
+    const route = routes[i]
+    path = route.path
+    component = route.path
     const [reg, params] = pathSlice(path)
 
     const res = currentPath.match(reg)
     if (!res) {
-      component = () => {}
+      component = () => {
+      }
       continue
     }
 
@@ -68,7 +72,7 @@ function pathSlice(path) {
   return slice
 }
 
-export function push (url) {
+export function push(url) {
   window.history.pushState(null, null, url)
   processStack()
 }
@@ -77,8 +81,8 @@ const processStack = () => Object.keys(routeStack).forEach(perfrom)
 
 window.addEventListener('popstate', processStack)
 
-export function A (props) {
-  const { onClick: onclick, children } = props
+export function A(props) {
+  const {onClick: onclick, children} = props
 
   const onClick = e => {
     e.preventDefault()

@@ -1,8 +1,8 @@
 import {h, useRef, useEffect, useState} from 'fre'
 import './index.styl'
 import VideoList from 'component/video-list'
-import {getPostDetail} from '../../../fre/api/get'
-import {getAvatar} from '../../../fre/public/js/util'
+import {getPostDetail} from '../../api/get'
+import {getAvatar} from '../../public/js/util'
 import snarkdown from 'snarkdown'
 
 export default function PostDetal() {

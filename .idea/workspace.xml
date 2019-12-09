@@ -2,15 +2,53 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba2a8de2-11d6-4087-99b3-75576d5ada72" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/fre/use-routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/celty.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/vue/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/vue/main.01ca73298a26265e13a7.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/vue/main.01ca73298a26265e13a7.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fre/component/week-list/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/fre/component/week-list/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fre/api/get.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/get.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fre/clicli.manifest.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/clicli.manifest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fre/component/comment-list/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/comment-list/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fre/component/footer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/footer/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fre/component/footer/index.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/footer/index.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fre/component/header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/header/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fre/component/header/index.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/header/index.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fre/component/home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/home/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fre/component/home/index.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/home/index.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fre/component/page/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/page/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fre/component/page/index.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/page/index.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fre/component/post-detail/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/post-detail/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fre/component/post-detail/index.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/post-detail/index.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fre/component/post-list/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/post-list/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fre/component/post-list/index.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/post-list/index.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fre/component/rank/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/rank/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fre/component/rank/index.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/rank/index.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fre/component/recommend/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/recommend/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fre/component/recommend/index.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/recommend/index.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fre/component/ugc-list/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ugc-list/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fre/component/ugc-list/index.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ugc-list/index.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fre/component/video-list/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/video-list/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fre/component/video-list/index.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/video-list/index.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fre/component/week-list/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/week-list/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fre/component/week-list/index.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/week-list/index.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fre/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fre/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fre/public/css/var.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/public/css/var.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fre/public/img/sliders/0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/public/img/sliders/0.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fre/public/img/sliders/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/public/img/sliders/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fre/public/img/sliders/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/public/img/sliders/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fre/public/img/sliders/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/public/img/sliders/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fre/public/js/const.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/public/js/const.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fre/public/js/fetch.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/public/js/fetch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fre/public/js/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/public/js/util.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fre/use-routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/use-routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fre/widget/eplayer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/widget/eplayer/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fre/widget/eplayer/index.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/widget/eplayer/index.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fre/widget/slider/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/widget/slider/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fre/widget/slider/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/widget/slider/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fre/widget/slider/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/widget/slider/slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fre/widget/tab/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/widget/tab/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fre/widget/tab/index.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/widget/tab/index.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fre/widget/tag/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/widget/tag/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fre/widget/tag/index.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/widget/tag/index.styl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/component/comment-list/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/fre/component/comment-list/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.fre.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +135,7 @@
       <workItem from="1575783764511" duration="5128000" />
       <workItem from="1575850512950" duration="12081000" />
       <workItem from="1575867779490" duration="5325000" />
+      <workItem from="1575874809516" duration="370000" />
     </task>
     <servers />
   </component>

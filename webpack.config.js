@@ -4,7 +4,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const {CleanWebpackPlugin} = require('clean-webpack-plugin')
 
 module.exports = {
-  entry: './fre/index.js',
+  entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'docs'),
     filename: '[name].[hash].js',
@@ -12,10 +12,10 @@ module.exports = {
   },
   resolve: {
     alias: {
-      component: path.resolve(__dirname, 'fre/component'),
-      public: path.resolve(__dirname, 'fre/public'),
-      api: path.resolve(__dirname, 'fre/api'),
-      widget: path.resolve(__dirname, 'fre/widget')
+      component: path.resolve(__dirname, 'src/component'),
+      public: path.resolve(__dirname, 'src/public'),
+      api: path.resolve(__dirname, 'src/api'),
+      widget: path.resolve(__dirname, 'src/widget')
     }
   },
   module: {
@@ -43,7 +43,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './fre/index.html'
+      template: './src/index.html'
     }),
     new CleanWebpackPlugin({
       cleanOnceBeforeBuildPatterns: ['*/**', '!CNAME']

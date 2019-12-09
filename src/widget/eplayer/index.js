@@ -1,5 +1,5 @@
 import {h, useEffect, useRef} from 'fre'
-import {getPlayUrl} from '../../../fre/api/get'
+import {getPlayUrl} from '../../api/get'
 import './index.styl'
 
 export default function Eplayer(props) {
