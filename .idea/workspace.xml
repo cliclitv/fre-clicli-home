@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba2a8de2-11d6-4087-99b3-75576d5ada72" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/docs/vue/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vue/main.01ca73298a26265e13a7.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vue/main.01ca73298a26265e13a7.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/component/page/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/component/page/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/component/video-list/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/component/video-list/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vue/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/widget/eplayer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/widget/eplayer/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/widget/eplayer/index.styl" beforeDir="false" afterPath="$PROJECT_DIR$/vue/widget/eplayer/index.styl" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +39,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
   </component>
   <component name="RecentsManager">
@@ -91,7 +92,7 @@
       <workItem from="1575684877670" duration="598000" />
       <workItem from="1575783764511" duration="5128000" />
       <workItem from="1575850512950" duration="12081000" />
-      <workItem from="1575867779490" duration="1292000" />
+      <workItem from="1575867779490" duration="2865000" />
     </task>
     <servers />
   </component>
