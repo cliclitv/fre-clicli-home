@@ -6,14 +6,13 @@ import './index.styl'
 
 export default function VideoList() {
   const [video, setVideo] = useState([])
-  const [content, setContent] = useState('')
+  const [content, setContent] = useState(null)
   useEffect(() => {
     getVideoList(328).then(res => {
       setVideo(res.videos)
     })
   }, [])
   return (<div className='video-list'>
-    <Eplayer url={content}/>
     {video.map(item => (
       <li className='item' onClick={() => setContent(item.content)}>
         <img src={getAvatar(item.uqq)} alt={item.uqq}></img>
@@ -21,5 +20,6 @@ export default function VideoList() {
         <span>{item.title}</span>
       </li>
     ))}
+    {content && <Eplayer url={content}/>}
   </div>)
 }

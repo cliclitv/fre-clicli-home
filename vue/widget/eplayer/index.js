@@ -1,15 +1,15 @@
-import {h, useState, useEffect} from 'fre'
+import {h, useEffect, useRef} from 'fre'
 import {getPlayUrl} from '../../../fre/api/get'
 import './index.styl'
 
 export default function Eplayer(props) {
-  const [url, setUrl] = useState('')
-  const [type, setType] = useState('mp4')
+  const t = useRef(null)
   useEffect(() => {
     getPlayUrl(props.url).then(res => {
-      setType(res.type || 'mp4')
-      setUrl(res.url)
+      t.current.setAttribute('src', res.url)
+      t.current.setAttribute('type', res.type)
     })
-  })
-  return <e-player src={url} type={type}/>
+  }, [props.url])
+
+  return <e-player ref={t}/>
 }
