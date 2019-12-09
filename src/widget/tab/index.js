@@ -1,5 +1,6 @@
 import {h} from 'fre'
 import './index.styl'
+import {push} from '../../use-routes'
 
 export default function Tab() {
   const obj = {
@@ -9,7 +10,7 @@ export default function Tab() {
   }
   return (<nav>
     {Object.keys(obj).map(key => (
-      <li className='item'>{key}</li>
+      <li className='item' onClick={()=>push(`/play/gv${obj[key]}`)}>{key}</li>
     ))}
   </nav>)
 }

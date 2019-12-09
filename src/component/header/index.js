@@ -9,14 +9,14 @@ export default function Header() {
     补档: 99
   }
   return (
-    <header style={{background:`url(${window.bg})`}}>
+    <header style={{background: `url(${window.bg})`}}>
       <div className="header">
         <div className='wrap'>
           <nav>
             <a href={clink} className="active">主站</a>
             <a href="https://app.clicli.me">APP 下载</a>
             {Object.keys(obj).map(key => (
-              <a href={`${clink}/play/gv${obj[key]}`}>{key}</a>
+              <li onClick={() => push(`/play/gv${obj[key]}`)} >{key}</li>
             ))}
           </nav>
           <div className='search'>

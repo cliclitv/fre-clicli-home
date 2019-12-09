@@ -3,6 +3,7 @@ import {getPost} from "api/get"
 import {getSuo} from "public/js/util"
 import './index.styl'
 import {clink} from "public/js/const"
+import {push} from '../../use-routes'
 
 export default function WeekList() {
   const [posts, setPosts] = useState([])
@@ -39,14 +40,13 @@ export default function WeekList() {
       </div>
       <ul className="posts">
         {posts[day] && posts[day].map((item) => (
-          <li key={item.id}><a target="_blank" href={`${clink}/play/gv${item.id}`}>
+          <li key={item.id} onClick={()=>push(`/play/gv${item.id}`)}>
             <div className="post">
               <div className="cover">
                 <img src={getSuo(item.content)}/>
               </div>
               <div className="title">{item.title}</div>
             </div>
-          </a>
           </li>)
         )}
       </ul>

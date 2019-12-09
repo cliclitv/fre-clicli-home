@@ -7,6 +7,10 @@ const routes = {
   '/play/:gv':Page
 }
 
-const App = () => useRoutes(routes)
+const App = () => {
+  const res = useRoutes(routes)
+  console.log(res)
+  return res
+}
 
 render(<App />, document.body)

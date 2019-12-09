@@ -11,7 +11,7 @@ export default function VideoList(props) {
     getVideoList(props.gv).then(res => {
       setVideo(res.videos)
     })
-  }, [])
+  }, [props.gv])
 
   function hide() {
     setContent(null)
@@ -24,7 +24,7 @@ export default function VideoList(props) {
   }
 
   return (<div className='video-list'>
-    {video.map(item => (
+    {video && video.map(item => (
       <li className='item' onClick={() => show(item.content)}>
         <img src={getAvatar(item.uqq)} alt={item.uqq}></img>
         <span>P {item.oid}</span>

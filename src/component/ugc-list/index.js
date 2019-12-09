@@ -3,6 +3,7 @@ import {getPost} from "api/get"
 import {getAvatar, getSuo} from "public/js/util"
 import './index.styl'
 import {clink} from "public/js/const"
+import {push} from '../../use-routes'
 
 export default function UGCList(props) {
   const [posts, setPosts] = useState([])
@@ -14,7 +15,7 @@ export default function UGCList(props) {
       <h1>个人投稿</h1>
       <ul className="posts">
         {posts.length > 0 && posts.map((item) => (
-          <li key={item.id}><a target="_blank" href={`${clink}/play/gv${item.id}`}>
+          <li key={item.id} onClick={()=>push(`/play/gv${item.id}`)}>
             <div className="post">
               <div className="cover">
                 <img src={getSuo(item.content)}/>
@@ -24,7 +25,6 @@ export default function UGCList(props) {
                 <div className="title">{item.title}</div>
               </div>
             </div>
-          </a>
           </li>)
         )}
       </ul>

@@ -13,7 +13,7 @@ export default function PostDetal(props) {
       setPost(res.result)
       t.current.innerHTML = snarkdown(res.result.content)
     })
-  }, [])
+  }, [props.gv])
   return (<div className="post-detail">
     <div className='left'>
       <article ref={t}></article>
