@@ -1,4 +1,5 @@
 import {h, useState, useEffect} from 'fre'
+import Eplayer from '../../widget/eplayer'
 import {getVideoList} from '../../../fre/api/get'
 import {getAvatar} from '../../../fre/public/js/util'
 import './index.styl'
@@ -12,6 +13,7 @@ export default function VideoList() {
     })
   }, [])
   return (<div className='video-list'>
+    <Eplayer url={content}/>
     {video.map(item => (
       <li className='item' onClick={() => setContent(item.content)}>
         <img src={getAvatar(item.uqq)} alt={item.uqq}></img>

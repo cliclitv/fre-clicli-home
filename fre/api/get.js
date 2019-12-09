@@ -15,3 +15,7 @@ export function getPostDetail(pid) {
 export function getVideoList(pid) {
   return get(`https://api.clicli.us/videos?pid=${pid}&page=1&pageSize=150`)
 }
+
+export function getPlayUrl(url) {
+  return get(`https://jx.clicli.us/jx?url=${url}`)
+}
