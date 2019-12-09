@@ -8,7 +8,8 @@
     "start:fre": "cross-env NODE_ENV=development webpack-dev-server --config webpack.fre.js --mode development",
     "start:vue": "cross-env NODE_ENV=development webpack-dev-server --config webpack.vue.js --mode development",
     "build:vue": "cross-env NODE_ENV=production webpack --config webpack.vue.js --mode production",
-    "build": "yarn build:vue && yarn build:fre"
+    "build": "yarn build:vue && yarn build:fre",
+    "start": "parcel index.html"
   },
   "repository": {
     "type": "git",

@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba2a8de2-11d6-4087-99b3-75576d5ada72" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/vue/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/vue/main.01ca73298a26265e13a7.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/vue/main.01ca73298a26265e13a7.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fre/use-routes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/celty.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/vue/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/vue/main.01ca73298a26265e13a7.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/vue/main.01ca73298a26265e13a7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fre/component/week-list/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/fre/component/week-list/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/component/comment-list/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/fre/component/comment-list/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,12 +46,13 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\www\fre-clicli-home" />
-      <recent name="E:\www\fre-clicli-home\build" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\www\fre-clicli-home\src\component" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\www\fre-clicli-home\fre\component" />
+      <recent name="E:\www\fre-clicli-home" />
+      <recent name="E:\www\fre-clicli-home\build" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -92,7 +96,7 @@
       <workItem from="1575684877670" duration="598000" />
       <workItem from="1575783764511" duration="5128000" />
       <workItem from="1575850512950" duration="12081000" />
-      <workItem from="1575867779490" duration="2865000" />
+      <workItem from="1575867779490" duration="5325000" />
     </task>
     <servers />
   </component>
@@ -107,6 +111,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="515" y="216" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1575246167822" />
+    <state x="500" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1575872626677">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="500" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834@0.0.1536.834" timestamp="1575872626677" />
     <state x="434" y="65" width="994" height="706" key="SettingsEditor" timestamp="1575246926518">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

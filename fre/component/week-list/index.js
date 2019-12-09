@@ -4,7 +4,7 @@ import {getSuo} from "public/js/util"
 import './index.styl'
 import {clink} from "public/js/const"
 
-export default function WeekList(props) {
+export default function WeekList() {
   const [posts, setPosts] = useState([])
   const [day, setDay] = useState(new Date().getDay())
   useEffect(() => {
