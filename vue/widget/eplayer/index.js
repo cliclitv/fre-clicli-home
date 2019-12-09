@@ -12,8 +12,9 @@ export default function Eplayer(props) {
   }, [props.url])
 
   return (
-    <div className="ep-wrap" onClick={props.hide}>
+    <div className="ep-wrap">
       <e-player ref={t} className='ep'/>
+      <div className="mark" onClick={props.hide}></div>
     </div>
   )
 }
