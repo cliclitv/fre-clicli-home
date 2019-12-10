@@ -27,8 +27,8 @@ export default function VideoList(props) {
     {video && video.map(item => (
       <li className='item' onClick={() => show(item.content)}>
         <img src={getAvatar(item.uqq)} alt={item.uqq}></img>
-        <span>P {item.oid||0}</span>
-        <span>{item.title||''}</span>
+        <span>P {item.oid || 0}</span>
+        <span>{item.title || ''}</span>
       </li>
     ))}
     {content && <Eplayer url={content} hide={hide}/>}
