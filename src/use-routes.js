@@ -4,8 +4,8 @@ let routeStack = {}
 let pathCache = {}
 
 export function useRoutes(routes) {
-  const id = useState(Symbol())[0]
-  const setter = useState(0)[1]
+  routeStack = {}
+  const [id,setter] = useState(Symbol())
 
   let stack = {
     routes: Object.entries(routes),
@@ -14,10 +14,10 @@ export function useRoutes(routes) {
 
   routeStack[id] = stack
   perfrom(id)
-
-  return typeof stack.component === 'string'
-    ? push(stack.component)
-    : stack.component(stack.props)
+  const Component = stack.component
+  return typeof Component === 'string'
+    ? push(Component)
+    : h(Component,stack.props)
 }
 
 function perfrom(id) {
