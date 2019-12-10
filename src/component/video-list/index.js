@@ -1,11 +1,11 @@
-import {h, useState, useEffect} from 'fre'
+import {h, useState, useEffect, useRef} from 'fre'
 import Eplayer from '../../widget/eplayer'
 import {getVideoList} from '../../api/get'
 import {getAvatar} from '../../public/js/util'
 import './index.styl'
 
 export default function VideoList(props) {
-  const [video, setVideo] = useState([])
+  const [video, setVideo] = useState(null)
   const [content, setContent] = useState(null)
   useEffect(() => {
     getVideoList(props.gv).then(res => {
@@ -22,15 +22,14 @@ export default function VideoList(props) {
     setContent(url)
     document.body.style.overflow = 'hidden'
   }
-
   return (<div className='video-list'>
-    {video && video.map(item => (
-      <li className='item' onClick={() => show(item.content)}>
+    {video&&video.map(item => {
+      return <li className='item' onClick={() => show(item.content)}>
         <img src={getAvatar(item.uqq)} alt={item.uqq}></img>
-        <span>P {item.oid || 0}</span>
-        <span>{item.title || ''}</span>
+        <span>P {item.oid}</span>
+        <span>{item.title}</span>
       </li>
-    ))}
+    })}
     {content && <Eplayer url={content} hide={hide}/>}
   </div>)
 }

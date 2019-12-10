@@ -1,6 +1,7 @@
 import {h} from 'fre'
 import './index.styl'
 import {push} from '../../use-routes'
+import {clink} from 'public/js/const'
 
 export default function Tab() {
   const obj = {
@@ -9,8 +10,9 @@ export default function Tab() {
     补档: 99
   }
   return (<nav>
-    {Object.keys(obj).map(key => (
-      <li className='item' onClick={()=>push(`/play/gv${obj[key]}`)}>{key}</li>
+    {Object.keys(obj).map(key => (<a href={`/play/gv${obj[key]}`}>
+        <li className='item'>{key}</li>
+      </a>
     ))}
   </nav>)
 }
