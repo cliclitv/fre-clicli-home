@@ -2,7 +2,6 @@ import {h, useEffect, useState} from 'fre'
 import {getPost} from "api/get"
 import {getSuo} from "public/js/util"
 import './index.styl'
-import {clink} from "public/js/const"
 import {push} from '../../use-routes'
 
 export default function WeekList() {

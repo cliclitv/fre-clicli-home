@@ -4,8 +4,8 @@ let routeStack = {}
 let pathCache = {}
 
 export function useRoutes(routes) {
-  routeStack = {}
-  const [id,setter] = useState(Symbol())
+  const id = useState(Symbol())[0]
+  const setter = useState(0)[1]
 
   let stack = {
     routes: Object.entries(routes),
@@ -13,14 +13,14 @@ export function useRoutes(routes) {
   }
 
   routeStack[id] = stack
-  perfrom(id)
-  const Component = stack.component
-  return typeof Component === 'string'
-    ? push(Component)
-    : h(Component,stack.props)
+  perfrom(id, true)
+
+  return typeof stack.component === 'string'
+    ? push(stack.component)
+    : stack.component(stack.props)
 }
 
-function perfrom(id) {
+function perfrom(id, skip) {
   const {routes, setter} = routeStack[id]
   const currentPath = location.pathname || '/'
   let path, component, props
@@ -51,7 +51,7 @@ function perfrom(id) {
     props
   })
 
-  setter(Symbol())
+  if(!skip) setter(Symbol())
 }
 
 function pathSlice(path) {

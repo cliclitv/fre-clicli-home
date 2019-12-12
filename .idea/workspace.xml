@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ba2a8de2-11d6-4087-99b3-75576d5ada72" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/post-detail/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/post-detail/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/video-list/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/video-list/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/widget/tab/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/widget/tab/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/week-list/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/week-list/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/use-routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/use-routes.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,20 +40,21 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jsx.switch.disabled" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\www\fre-clicli-home\src\component" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\www\fre-clicli-home\fre\component" />
       <recent name="E:\www\fre-clicli-home" />
       <recent name="E:\www\fre-clicli-home\build" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\www\fre-clicli-home\docs" />
+      <recent name="E:\www\fre-clicli-home\src\component" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -106,6 +106,9 @@
       <workItem from="1575883870846" duration="1619000" />
       <workItem from="1575885775623" duration="5194000" />
       <workItem from="1575941735440" duration="11466000" />
+      <workItem from="1575953499698" duration="662000" />
+      <workItem from="1576117150758" duration="4189000" />
+      <workItem from="1576133793183" duration="705000" />
     </task>
     <servers />
   </component>
