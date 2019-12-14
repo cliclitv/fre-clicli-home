@@ -11,5 +11,3 @@
 ```console
 yarn start
 ```
-### 截图
-![](https://ws1.sinaimg.cn/large/0065Zy9ely1g96xkp5feqj30ry1t9e82.jpg)

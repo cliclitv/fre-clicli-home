@@ -13,7 +13,7 @@ export default function Tab() {
     <nav className="tab">
       <ul className="wrap">
         <a href="/"><li>主站</li></a>
-        {Object.keys(obj).map(key => (<a href={`/play/gv${obj[key]}`}>
+        {Object.keys(obj).map(key => (<a href={`${clink}/play/gv${obj[key]}`}>
             <li className='item'>{key}</li>
           </a>
         ))}

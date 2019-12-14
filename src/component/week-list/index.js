@@ -1,8 +1,9 @@
 import {h, useEffect, useState} from 'fre'
-import {getPost} from "api/get"
-import {getSuo} from "public/js/util"
+import {getPost} from 'api/get'
+import {getSuo} from 'public/js/util'
 import './index.styl'
 import {push} from '../../use-routes'
+import {clink} from 'public/js/const'
 
 export default function WeekList() {
   const [posts, setPosts] = useState([])
@@ -39,14 +40,16 @@ export default function WeekList() {
       </div>
       <ul className="posts">
         {posts[day] && posts[day].map((item) => (
-          <li key={item.id} onClick={()=>push(`/play/gv${item.id}`)}>
-            <div className="post">
-              <div className="cover">
-                <img src={getSuo(item.content)}/>
+          <a href={`${clink}/play/gv${item.id}`} key={item.id}>
+            <li>
+              <div className="post">
+                <div className="cover">
+                  <img src={getSuo(item.content)}/>
+                </div>
+                <div className="title">{item.title}</div>
               </div>
-              <div className="title">{item.title}</div>
-            </div>
-          </li>)
+            </li>
+          </a>)
         )}
       </ul>
     </div>

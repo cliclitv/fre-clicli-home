@@ -3,12 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="ba2a8de2-11d6-4087-99b3-75576d5ada72" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/header/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/header/index.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/header/index.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/home/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/home/index.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/home/index.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/rank/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/rank/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/recommend/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/recommend/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/ugc-list/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ugc-list/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/week-list/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/week-list/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,14 +50,14 @@
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\www\fre-clicli-home\docs" />
+      <recent name="E:\www\fre-clicli-home\src\component" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\www\fre-clicli-home\fre\component" />
       <recent name="E:\www\fre-clicli-home" />
       <recent name="E:\www\fre-clicli-home\build" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\www\fre-clicli-home\docs" />
-      <recent name="E:\www\fre-clicli-home\src\component" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -113,7 +112,7 @@
       <workItem from="1575953499698" duration="662000" />
       <workItem from="1576117150758" duration="4189000" />
       <workItem from="1576133793183" duration="1246000" />
-      <workItem from="1576303444573" duration="4861000" />
+      <workItem from="1576303444573" duration="7150000" />
     </task>
     <servers />
   </component>
