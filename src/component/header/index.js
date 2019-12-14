@@ -12,11 +12,16 @@ export default function Header() {
     <header style={{background: `url(${window.bg})`}}>
       <div className="header">
         <div className='wrap'>
-          <nav>
-            <a href={clink} className="active">主站</a>
-            <a href="https://app.clicli.me">APP 下载</a>
-            {Object.keys(obj).map(key => (
-              <li onClick={() => push(`/play/gv${obj[key]}`)} >{key}</li>
+          <nav className="nav">
+            <a href={clink}>
+              <li className="active">主站</li>
+            </a>
+            <a href="https://app.clicli.me">
+              <li>APP 下载</li>
+            </a>
+            {Object.keys(obj).map(key => (<a href={`/play/gv${obj[key]}`}>
+                <li>{key}</li>
+              </a>
             ))}
           </nav>
           <div className='search'>

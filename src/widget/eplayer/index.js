@@ -13,8 +13,11 @@ export default function Eplayer(props) {
 
   return (
     <div className="ep-wrap">
-      <e-player ref={t} className='ep'/>
-      <div className="mark" onClick={props.hide}></div>
+      <div className="ep">
+        <e-player ref={t} className='ep'/>
+        <div className="close"  onClick={props.hide}><i className="icon-font icon-close"></i></div>
+      </div>
+      <div className="mark"></div>
     </div>
   )
 }

@@ -9,10 +9,15 @@ export default function Tab() {
     使用说明: 31,
     补档: 99
   }
-  return (<nav>
-    {Object.keys(obj).map(key => (<a href={`/play/gv${obj[key]}`}>
-        <li className='item'>{key}</li>
-      </a>
-    ))}
-  </nav>)
+  return (
+    <nav className="tab">
+      <ul className="wrap">
+        <a href="/"><li>主站</li></a>
+        {Object.keys(obj).map(key => (<a href={`/play/gv${obj[key]}`}>
+            <li className='item'>{key}</li>
+          </a>
+        ))}
+      </ul>
+    </nav>
+  )
 }

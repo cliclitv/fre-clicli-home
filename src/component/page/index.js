@@ -8,8 +8,8 @@ import './index.styl'
 export default function Page(props) {
   const gv = getAv(props.gv)
   return <div>
+    <Tab/>
     <div className='wrap'>
-      <Tab/>
       <PostDetal gv={gv}/>
     </div>
     <Footer/>
