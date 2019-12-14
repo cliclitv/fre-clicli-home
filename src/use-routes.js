@@ -13,14 +13,14 @@ export function useRoutes(routes) {
   }
 
   routeStack[id] = stack
-  perfrom(id, true)
+  perfrom(id)
 
   return typeof stack.component === 'string'
     ? push(stack.component)
     : stack.component(stack.props)
 }
 
-function perfrom(id, skip) {
+function perfrom(id) {
   const {routes, setter} = routeStack[id]
   const currentPath = location.pathname || '/'
   let path, component, props
@@ -51,7 +51,7 @@ function perfrom(id, skip) {
     props
   })
 
-  if(!skip) setter(Symbol())
+  setter(Symbol())
 }
 
 function pathSlice(path) {

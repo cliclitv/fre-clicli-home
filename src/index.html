@@ -19,6 +19,17 @@
         window.concat = ['https://jq.qq.com/?_wv=1027&k=5105Wfr', 'https://weibo.com/u/6759984025', 'https://app.clicli.me', 'https://jq.qq.com/?_wv=1027&k=5LWIUjM', 'https://github.com/cliclitv']
       })();
     </script>
+    <script>
+      !function () {
+        var devices = ["iPhone","Android","Windows Phone"]
+        var ua = window.navigator.userAgent
+        for (var i = 0; i < devices.length; i++) {
+          if (ua.indexOf(devices[i]) != -1) {
+            window.location.href = 'http://app.clicli.me'
+          }
+        }
+      }()
+    </script>
 </head>
 <body>
 <script src="https://code.bdstatic.com/npm/@webcomponents/webcomponentsjs@2.2.10"></script>
