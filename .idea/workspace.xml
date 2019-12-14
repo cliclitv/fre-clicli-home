@@ -3,17 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="ba2a8de2-11d6-4087-99b3-75576d5ada72" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/header/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/header/index.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/header/index.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/home/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/home/index.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/home/index.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/page/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/page/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/week-list/index.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/week-list/index.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/widget/eplayer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/widget/eplayer/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/widget/eplayer/index.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/widget/eplayer/index.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/widget/tab/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/widget/tab/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/widget/tab/index.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/widget/tab/index.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +113,7 @@
       <workItem from="1575953499698" duration="662000" />
       <workItem from="1576117150758" duration="4189000" />
       <workItem from="1576133793183" duration="1246000" />
-      <workItem from="1576303444573" duration="3608000" />
+      <workItem from="1576303444573" duration="4861000" />
     </task>
     <servers />
   </component>

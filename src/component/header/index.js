@@ -24,8 +24,11 @@ export default function Header() {
               </a>
             ))}
           </nav>
-          <div className='search'>
-            <input type='text' placeholder='搜索一下下菊花又不会坏(⊙o⊙)…'/>
+          {/*<div className='search'>*/}
+          {/*  <input type='text' placeholder='搜索一下下菊花又不会坏(⊙o⊙)…'/>*/}
+          {/*</div>*/}
+          <div style={{textAlign: 'center'}}>
+            <div className="call">{'@' + window.call[0] +'： '+ window.call[1]}</div>
           </div>
           <div className="biu">
             <a href={`${alink}/login`}>登陆</a>

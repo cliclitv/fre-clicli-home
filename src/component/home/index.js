@@ -12,9 +12,6 @@ export default function Home() {
   return (
     <div>
       <Header/>
-      <div style={{textAlign: 'center'}}>
-        <div className="call">{'@' + window.call[0] +'： '+ window.call[1]}</div>
-      </div>
       <div className="wrap" style={{display: 'flex'}}>
         <Recommend/>
         <Rank/>
