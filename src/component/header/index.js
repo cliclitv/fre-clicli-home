@@ -2,7 +2,7 @@ import {h} from 'fre'
 import {clink, alink} from 'public/js/const'
 import './index.styl'
 
-export default function Header() {
+export default function Header(props) {
   const obj = {
     投稿教程: 905,
     使用说明: 31,
