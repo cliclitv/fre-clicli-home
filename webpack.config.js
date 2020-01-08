@@ -6,7 +6,7 @@ const {CleanWebpackPlugin} = require('clean-webpack-plugin')
 module.exports = {
   entry: './src/index.js',
   output: {
-    path: path.resolve(__dirname, 'docs'),
+    path: path.resolve(__dirname, 'dist'),
     filename: '[name].[hash].js',
     publicPath: process.env.NODE_ENV === 'production' ? 'https://www.clicli.me' : '/'
   },
@@ -55,7 +55,7 @@ module.exports = {
   ],
   devServer: {
     headers: {'Access-Control-Allow-Origin': '*'},
-    contentBase: path.join(__dirname, 'docs'),
+    contentBase: path.join(__dirname, 'dist'),
     compress: true,
     port: 8080,
     historyApiFallback: true,
