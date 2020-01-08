@@ -61,4 +61,4 @@ typings/
 .next
 
 .idea/
-.server/config.js
+server/config.js
