@@ -1,6 +1,6 @@
 const axios = require("axios")
 const util = require('./util/util')
-const Hcy = require('./api/hcy')
+const Hcy = require('./hcy')
 
 axios.interceptors.response.use({}, err => {
   if (err.response.status === 302) return err.response
